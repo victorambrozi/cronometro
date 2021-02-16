@@ -1,4 +1,4 @@
-#  Desafio Danki Code
+#  Cronômetro
 ![enter image description here](https://raw.githubusercontent.com/victorambrozi/cronometro/master/assets/cronometro.gif?token=ANNIQS6RSXOMCHDP3MWTXATAFP264)
 
 
