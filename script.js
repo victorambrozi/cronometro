@@ -1,11 +1,11 @@
 'use strict'
 
-var hh = 0;
-var mm = 0;
-var ss = 0;
+let hh = 0;
+let mm = 0;
+let ss = 0;
 
-var tempo =  1000;
-var cron;
+const tempo =  1000;
+let cron;
 
 function start() {
     cron = setInterval(() => { timer(); }, tempo)
@@ -39,6 +39,6 @@ function timer() {
         }
     }
 
-    var format = (hh < 10 ? '0' + hh : hh) + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss)
+    let format = (hh < 10 ? '0' + hh : hh) + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss)
     document.getElementById('counter').innerText = format
 }
