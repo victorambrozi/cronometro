@@ -4,7 +4,7 @@
 
 # Sobre:
 
-A intenção desse desafio é testar meus conhecimentos em **HTML , CSS e Javascript**.
+A intenção desse desafio é testar meus conhecimentos em **HTML , CSS e Javascript**. Explorando um pouco o funcionamento da função setInterval().
 
 
 ## Tecnologias utilizadas:
