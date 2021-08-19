@@ -18,9 +18,9 @@ A intenção desse desafio é testar meus conhecimentos em **HTML , CSS e Javasc
 Para rodar esse desafio você deve ter instalado o [Git](https://git-scm.com/) e  o plugin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
     # clone este repositório
-    $ git clone git@github.com:victorambrozi/form-dankicode-challenge.git
+    $ git clone github.com:victorambrozi/cronometro.git
     
     # Entre no repositório
-    $ cd form-dankicode-challenge
+    $ cd cronometro
     
     # Abra com o Live Server no VSCode

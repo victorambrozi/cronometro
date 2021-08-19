@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronômetro</title>
 
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <div class="max-width">
-        <button onclick="start();" class="bg-green"> Iniciar </button>
-        <button onclick="pause();" class="bg-yellow"> Pausar </button>
-        <button onclick="stop();" class="bg-red"> Parar </button>
-        <h1 id="counter">00:00:00</h1>
+        <button data-time="start" class="bg-green"> Iniciar </button>
+        <button data-time="stop" class="bg-yellow"> Pausar </button>
+        <button data-time="reset" class="bg-red"> Reset </button>
+        <h1 data-time="counter"></h1>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
+
 </html>
